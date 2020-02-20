@@ -42,9 +42,9 @@ class Migration(migrations.Migration):
                 ('brand', models.CharField(max_length=50)),
                 ('material', models.CharField(max_length=50)),
                 ('fasten_type', models.CharField(max_length=50)),
-                ('color', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='rest_framework.ShoeColor')),
-                ('manufacturer', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='rest_framework.Manufacturer')),
-                ('shoe_type', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='rest_framework.ShoeType')),
+                ('color', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='rest_framework_shoes.ShoeColor')),
+                ('manufacturer', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='rest_framework_shoes.Manufacturer')),
+                ('shoe_type', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='rest_framework_shoes.ShoeType')),
             ],
         ),
     ]

@@ -1,5 +1,5 @@
 """
-WSGI config for rest_framework project.
+WSGI config for rest_framework_shoes project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'rest_framework.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'rest_framework_shoes.settings')
 
 application = get_wsgi_application()
