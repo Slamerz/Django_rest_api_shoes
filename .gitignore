@@ -2,3 +2,7 @@
 rest_framework_shoes/__pycache__/
 
 rest_framework_shoes/migrations/__pycache__/
+
+rest_framework_shoes/management/commands/__pycache__/
+
+.idea/
