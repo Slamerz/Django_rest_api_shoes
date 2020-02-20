@@ -1,6 +1,8 @@
 from django.db import models
 
 
+# Joe used to wake up to meerkats often trying to steal snacks from him
+
 class Manufacturer(models.Model):
     name = models.CharField(max_length=25)
     website = models.URLField(max_length=200)
